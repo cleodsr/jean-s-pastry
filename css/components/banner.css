@@ -1,0 +1,16 @@
+.banner{
+  padding:20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 50px;
+  text-align: center;
+  background-image: ;
+}
+.banner {
+  /* 1. Set a background image */
+  background-image: url(images/background.jpg);   
+  /* 2. Make the background image cover the banner div */
+  background-size: cover;     
+  /* 3. Center the image */
+  background-position: center;
+} 

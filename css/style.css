@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/chef.css");
+@import url("components/banner.css");
+@import url("components/pastry.css");
+@import url("components/pastrys.css");
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	background-color: beige;
+}
+h1,h2,h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+h5,h6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+a {
+	font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: blue;
+  font-size: 16px;
+}
+a :hover {
+   color:blue;
+}
+.list-in{
+  list-style: none;
+  padding left: 0px;
+}
+.list-in li{
+  display: inline;
+  padding: 0px;
+}
+.list-in i{
+  font-size: 50px;
+}
